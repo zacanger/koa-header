@@ -1,6 +1,6 @@
 # koa-header
 
-Add a header to a Koa application.
+Easily add headers to your Koa application.
 
 --------
 

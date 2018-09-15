@@ -1,6 +1,6 @@
 {
   "name": "koa-header",
-  "description": "koa-header",
+  "description": "Easily add headers to your Koa application.",
   "version": "0.1.0",
   "author": {
     "name": "Zac Anger",
@@ -10,8 +10,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "test": ""
+    "preversion": "npm t",
+    "test": "npm run test:lint",
+    "test:lint": "eslint -c .eslintrc.json index.js"
   },
   "homepage": "https://github.com/zacanger/koa-header#readme",
   "repository": {
@@ -20,11 +21,22 @@
   },
   "bugs": "https://github.com/zacanger/koa-header/issues",
   "keywords": [
-    "",
-    "koa-header"
+    "header",
+    "headers",
+    "koa",
+    "middleware"
   ],
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "9.0.0",
+    "eslint": "5.5.0",
+    "eslint-config-zacanger": "3.4.1",
+    "eslint-plugin-babel": "5.2.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-unicorn": "6.0.1"
+  },
   "engines": {
     "node": ">=10.0.0"
   }
