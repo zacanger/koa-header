@@ -1,0 +1,31 @@
+{
+  "name": "koa-header",
+  "description": "koa-header",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "http://zacanger.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  },
+  "homepage": "https://github.com/zacanger/koa-header#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/koa-header.git"
+  },
+  "bugs": "https://github.com/zacanger/koa-header/issues",
+  "keywords": [
+    "",
+    "koa-header"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
