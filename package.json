@@ -1,7 +1,7 @@
 {
   "name": "koa-header",
   "description": "Easily add headers to your Koa application.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
