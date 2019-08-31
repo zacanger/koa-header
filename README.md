@@ -17,6 +17,4 @@ import header from 'koa-header'
 app.use(header('Foo', 'Bar'))
 ```
 
-## License
-
-[MIT](./LICENSE.md)
+[LICENSE](./LICENSE.md)
