@@ -2,6 +2,8 @@
 
 Easily add headers to your Koa application.
 
+[Donate](https://ko-fi.com/zacanger)
+
 --------
 
 ## Installation
